@@ -4,12 +4,12 @@
 > * Every Saturday, 7:00PM - 10:00PM (near Noryangjin)
 
 # Week 5 (31 DEC 2017)
-> What we did
-> * Implemented the stack data structure with solving [a problem](https://www.acmicpc.net/problem/10828)
-> Homeworks
-> 1. Stack using Array
-> 2. Stack using Linked List
-> 3. [Problem 9012](https://www.acmicpc.net/problem/9012)
+> * What we did
+> 	* Implemented the stack data structure with solving [a problem](https://www.acmicpc.net/problem/10828)
+> * Homeworks
+> 	* Stack using Array
+> 	* Stack using Linked List
+> 	* [Problem 9012](https://www.acmicpc.net/problem/9012)
 
 # Week 4 (24 DEC 2017)
 # Week 3 (17 DEC 2017)

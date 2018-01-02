@@ -17,6 +17,11 @@ typedef struct Node {
 	struct Node* next;
 } Node;
 
+typedef struct Head {
+	int size;
+	struct Node* head;
+} Head;
+
 void initNode(Node* node);
 void push(int data, Node** HEAD);
 int pop(Node** HEAD);
@@ -92,10 +97,9 @@ void printAll(Node* HEAD) {
 
 int main()
 {
-	int i;
+	int i, j;
 	int ret;
 
-	char j;
 	char buf[12];
 	char cmd[7];
 	char num[7];
@@ -111,7 +115,13 @@ int main()
 
 	Node* HEAD = NULL;
 
-	while(1)
+	i = 0;
+	scanf("%d", &i);
+
+	if(i > 10000) return 0;
+	if(i < 1) return 0;
+
+	for(j=0;j<=i;j++)
 	{
 		fgets(buf, 12, stdin);
 
@@ -124,49 +134,23 @@ int main()
 			num_parse = atoi(num);
 		}
 
-		//printf("%s", cmd);
-
 		if(!strcmp(cmd, cmdPush)) {
-			push(i, &HEAD);
+			push(num_parse, &HEAD);
 		} else if(!strcmp(cmd, cmdPop)) {
 			ret = pop(&HEAD);
-			printf("%d", ret);
+			printf("%d\n", ret);
 		} else if(!strcmp(cmd, cmdSize)) {
 			ret = size(HEAD);
-			printf("%d", ret);
+			printf("%d\n", ret);
 		} else if(!strcmp(cmd, cmdEmpty)) {
 			ret = empty(HEAD);
-			printf("%d", ret);
+			printf("%d\n", ret);
 		} else if(!strcmp(cmd, cmdTop)) {
 			ret = top(HEAD);
-			printf("%d", ret);
+			printf("%d\n", ret);
 		} else {
-			printf("????");
+			// ERROR
 		}
-
-		switch(j)
-		{
-		case 'i':
-			push(i, &HEAD);
-			printf("Current Head is %d\n", HEAD);
-			break;
-		case 'o':
-			printf("Pop Head is %d\n", HEAD);
-			pop(&HEAD);
-			break;
-		case 's':
-			printf("size is %d\n", size(HEAD));
-			break;
-		case 'e':
-			printf("isempty? %d\n", empty(HEAD));
-			break;
-		case 't':
-			printf("topdata %d\n", top(HEAD));
-			break;
-		}
-		
-		//printf("result\n");
-		//printAll(HEAD);
 	}
 
 	return 0;
