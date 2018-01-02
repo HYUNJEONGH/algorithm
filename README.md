@@ -1,26 +1,10 @@
-# 알고리즘 스터디 (12/3~)
-==========
-* 1주차 (12/3)
-* 2주차 (12/10)
-* 3주차 (12/17)
-* 4주차 (12/24)
-	* 퀵소트 (~129p)
+Algorithm Review Project
+=================
 
-* 5주차 (12/31)
+## Folder structure
 
-아래는 버림
-==========
-Algorithm Implemenation : For graduate school preparation
-==========
+* \_1\_GroupStudy\_Algorithm
+	* It is about algorithm group study.
 
-Completed Implementations
-----------
-
-* Sorting
-    * Insertion sort
-    * Selection sort
-
-Scheduled Implementations
----------
-
-* Peak finding
+* \_2\_MIT\_OCW
+	* It is about assignments during the MIT OCW algorithm class
