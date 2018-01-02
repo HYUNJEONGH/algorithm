@@ -1,11 +1,12 @@
 Algorithm Book and Problem Sets
 =======
 
-# Study information
-> Language : Java
-> Every Saturday, 7:00PM - 10:00PM
+# General study group information
+> * Members : Hyeonseong Kim, [Jisung Kim](kimjs3115@gmail.com), Yoojeong Choi, Joonsang, Yoonjeong, HJ Choi, Soobin Kim
+> * Language : Java
+> * Every Saturday, 7:00PM - 10:00PM (near Noryangjin)
 
-# 5th Week
+# Week 5
 > Homeworks
 > 1. Stack using Array
 > 2. Stack using Linked List
