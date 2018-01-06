@@ -3,6 +3,14 @@
 > * Language : Java
 > * Every Saturday, 7:00PM - 10:00PM (near Noryangjin)
 
+# Week 6 (06 JAN 2018)
+> * What we did
+> 	* Implemented the queue data structure with solving [a problem][(https://www.acmicpc.net/problem/10845)]
+> * Homeworks
+> 	* Queue using Array
+> 	* Queue using Linked List
+> 	* [Problem 1158](https://www.acmicpc.net/problem/1158)
+
 # Week 5 (31 DEC 2017)
 > * What we did
 > 	* Implemented the stack data structure with solving [a problem](https://www.acmicpc.net/problem/10828)
