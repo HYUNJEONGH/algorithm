@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StackArray {
     int[] data;
     int top;
