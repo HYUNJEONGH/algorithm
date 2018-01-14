@@ -1,4 +1,4 @@
 TODOs
 ==========
 
-1. How does BufferedInput/OutputStream make different on Running Time?
+1. How does BufferedInput/OutputStream make difference on Running Time?
